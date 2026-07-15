@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Tìm và Đăng Bài Vào Nhóm (FBToolkit)",
+  "name": "Tìm và Đăng Bài Vào Nhóm (ToolsFB ByTranDinhHung)",
   "version": "1.0",
   "description": "Công cụ Premium tìm kiếm nhóm và đăng bài tự động trên Facebook",
   "icons": {
@@ -20,8 +20,8 @@
   ],
   "host_permissions": [
     "*://*.facebook.com/*",
-    "https://fbtoolkit.com/*",
-    "https://*.fbtoolkit.com/*"
+    "https://toolsfb.com/*",
+    "https://*.toolsfb.com/*"
   ],
   "content_scripts": [
     {
