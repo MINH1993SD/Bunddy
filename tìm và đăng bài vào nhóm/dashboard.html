@@ -55,20 +55,18 @@
 
         <div class="form-group">
           <label>Nội dung đăng (Hỗ trợ Spintax: {từ 1|từ 2})</label>
-          <textarea id="postContent" rows="4"
-            placeholder="Nhập nội dung bài viết. Ví dụ: {Tìm mua|Cần mua} acc fifa {sll|số lượng lớn}..."></textarea>
+          <textarea id="postContent" rows="4" placeholder="Nhập nội dung bài viết. Ví dụ: {Tìm mua|Cần mua} acc fifa {sll|số lượng lớn}..."></textarea>
           <small class="hint" style="color: #475569; font-weight: 500;">Nội dung sẽ được Spin ngẫu nhiên cho mỗi bài đăng để tránh bị báo cáo Spam.</small>
         </div>
 
         <div class="settings-grid">
-          
           <div class="form-group">
             <label>Đính kèm Ảnh (Hỗ trợ nhiều ảnh)</label>
             <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
-              <input type="file" id="postImage" accept="image/png, image/jpeg, image/gif" multiple style="background: var(--input-bg); border: 1px solid var(--input-border); padding: 0.5rem; width: 100%; border-radius: 8px;">
+              <input type="file" id="postImage" accept="image/png, image/jpeg, image/gif" multiple style="background: var(--input-bg); border: 1px solid var(--input-border); padding: 0.5rem; width: 100%; flex: 1;">
               <button id="btnUploadImage" class="btn" style="background: #10b981; color: white; white-space: nowrap;">Tải Ảnh Lên</button>
             </div>
-            
+
             <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
               <label for="imageMode" style="font-weight: 500; margin-bottom: 0;">Chế độ Ảnh:</label>
               <select id="imageMode" style="padding: 6px; border-radius: 6px; border: 1px solid var(--input-border); background: var(--input-bg);">
@@ -79,13 +77,10 @@
             <div id="imagePreview" style="display: none; padding: 10px; background: #f8fafc; border-radius: 8px; font-size: 14px;"></div>
           </div>
 
-
-
           <div class="form-group">
             <label>Delay giữa 2 bài (giây)</label>
             <input type="number" id="delaySeconds" value="60" min="5">
           </div>
-
         </div>
 
         <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
